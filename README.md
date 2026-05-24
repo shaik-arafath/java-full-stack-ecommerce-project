@@ -31,6 +31,17 @@ UMAT is an e-commerce demonstration application with:
 - `.github/workflows/deploy.yml` — GitHub Actions workflow for remote deployment
 - `docs/` — Project documentation and architecture references
 
+## Screenshots
+
+### Homepage & Product Browse
+![Homepage Screenshot](img/Screenshot%20%282%29.png)
+
+### Product Details & Catalog
+![Product Screenshot](img/Screenshot%20%283%29.png)
+
+### Checkout & Payment Flow
+![Checkout Screenshot](img/Screenshot%20%284%29.png)
+
 ## Getting Started
 
 ### Local development
