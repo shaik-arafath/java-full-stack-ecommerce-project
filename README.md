@@ -19,16 +19,16 @@ RAW FADE is an e-commerce demonstration application with:
 ## 🖼️ Project Screenshots
 
 ### 1. Home Page - Hero Section
-Landing page featuring the RAW FADE brand with prominent call-to-action buttons and professional imagery.
+Landing page featuring the RAW FADE brand with prominent call-to-action buttons and professional imagery showcasing premium men's fashion.
 
 ![Home Page - Hero Section](img/Screenshot%20(4).png)
 
 **Features:**
-- Professional hero banner with brand logo
-- "ELEVATE YOUR STYLE" headline
-- Call-to-action buttons: "SHOP NOW" and "EXPLORE COLLECTION"
-- Navigation: Home, Shop, Contact, Login, Cart
-- Responsive design with high-quality background imagery
+- Bold hero headline: "ELEVATE YOUR STYLE"
+- Premium men's fashion tagline
+- "SHOP NOW" and "EXPLORE COLLECTION" CTA buttons
+- Professional background imagery
+- Navigation menu with Home, Shop, Contact, Login, and Cart
 
 ---
 
@@ -38,30 +38,28 @@ Product showcase displaying bestsellers and exclusive items with pricing, discou
 ![Featured Collection](img/Screenshot%20(5).png)
 
 **Features:**
-- "FEATURED COLLECTION" product grid
-- Bestseller badges on premium items
-- Product cards with images, names, and pricing
-- Price discounts shown (e.g., ₹2,599 → ₹1,299)
-- Add to cart functionality for each product
+- Grid layout with 4 product cards
+- Product images with "BESTSELLER" badges
+- Price display with discount formatting (Original → Discounted)
+- Add to cart functionality
 - Newsletter signup section
-- Products: Bestseller items, Beach wear, Alazer clothing, Cargo Shorts
+- Featured products: Bestseller items, Alazer, Cargo Shorts
 
 ---
 
 ### 3. Login Page
-User authentication interface with Login/Register options and error handling.
+User authentication interface with Login/Register options and error handling for secure account access.
 
 ![Login Page](img/Screenshot%20(6).png)
 
 **Features:**
-- "Welcome to RAW FADE" authentication form
-- Login and Register toggle buttons
+- Welcome heading: "Welcome to RAW FADE"
+- Login/Register tab switching
 - Username/Email input field
-- Secure password field with masking
-- Sign In button
-- Error message display: "Network error. Please try again."
-- Consistent dark theme with brand logo
-- User-friendly form layout
+- Password input field with masking
+- "Sign In" button
+- Error message display area
+- Account creation option
 
 ---
 
@@ -81,7 +79,7 @@ User authentication interface with Login/Register options and error handling.
 - `Dockerfile` / `docker-compose.yml` — Deployment definitions for containerized execution
 - `.github/workflows/deploy.yml` — GitHub Actions workflow for remote deployment
 - `docs/` — Project documentation and architecture references
-- `img/` — Project screenshots and images
+- `img/` — Project screenshots and assets
 
 ## Key Features
 
@@ -92,6 +90,7 @@ User authentication interface with Login/Register options and error handling.
 ✅ **Payment Integration** - Razorpay payment gateway integration  
 ✅ **Admin Dashboard** - Manage inventory and orders  
 ✅ **Docker Deployment** - Containerized application for easy deployment  
+✅ **Newsletter Integration** - Email subscription for customers  
 
 ## Getting Started
 
@@ -118,15 +117,15 @@ Configuration is driven from environment variables. See `docs/DEPLOYMENT_GUIDE.m
 - [`docs/SECURITY.md`](docs/SECURITY.md)
 - [`docs/CONTRIBUTING.md`](docs/CONTRIBUTING.md)
 
-## CI/CD
+## Live Demo
 
-The repository includes a GitHub Actions workflow that deploys to a remote server via SSH when changes are pushed to `main`. Sensitive deployment secrets are expected to be stored in GitHub Actions secrets.
+Experience the RAW FADE platform live:
 
-## Deployment
+**🚀 Live Application**: [https://cute-granita-cd33ed.netlify.app](https://cute-granita-cd33ed.netlify.app)
 
-The application is deployed and live on Netlify:
+### Deployment
 
-**Live Demo**: [https://cute-granita-cd33ed.netlify.app](https://cute-granita-cd33ed.netlify.app)
+The application is deployed using Docker on Netlify for easy access and continuous deployment.
 
 ### Docker Build
 ```bash
@@ -139,9 +138,13 @@ docker run -p 8080:8080 raw-fade:latest
 docker-compose up -d
 ```
 
-## Professional summary
+## CI/CD
 
-RAW FADE demonstrates a complete full-stack architecture with real-world deployment practices, strong documentation, a clean separation between frontend assets and backend services, and production-ready e-commerce functionality.
+The repository includes a GitHub Actions workflow that deploys to a remote server via SSH when changes are pushed to `main`. Sensitive deployment secrets are expected to be stored in GitHub Actions secrets.
+
+## Professional Summary
+
+RAW FADE demonstrates a complete full-stack architecture with real-world deployment practices, strong documentation, a clean separation between frontend assets and backend services, and production-ready e-commerce functionality. The application showcases modern UI/UX design principles with a professional dark theme and comprehensive feature set for a premium fashion e-commerce platform.
 
 ## License
 
