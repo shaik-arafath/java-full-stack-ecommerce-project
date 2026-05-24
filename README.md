@@ -21,7 +21,7 @@ RAW FADE is an e-commerce demonstration application with:
 ### 1. Home Page - Hero Section
 Landing page featuring the RAW FADE brand with prominent call-to-action buttons and professional imagery showcasing premium men's fashion.
 
-![Home Page - Hero Section](img\Screenshot (2).png)
+![Home Page - Hero Section](https://github.com/shaik-arafath/java-full-stack-ecommerce-project/commit/680b35ce0273f8d6aec077983b88c7b2878658aa)
 
 **Features:**
 - Bold hero headline: "ELEVATE YOUR STYLE"
