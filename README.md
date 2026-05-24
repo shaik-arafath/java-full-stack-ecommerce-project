@@ -21,7 +21,7 @@ RAW FADE is an e-commerce demonstration application with:
 ### 1. Home Page - Hero Section
 Landing page featuring the RAW FADE brand with prominent call-to-action buttons and professional imagery showcasing premium men's fashion.
 
-![Home Page - Hero Section](img/Screenshot%20(4).png)
+![Home Page - Hero Section](D:\it company rawfade repo\ummatrawfade-main\ummatrawfade-main\img\Screenshot (2).png)
 
 **Features:**
 - Bold hero headline: "ELEVATE YOUR STYLE"
@@ -35,7 +35,7 @@ Landing page featuring the RAW FADE brand with prominent call-to-action buttons 
 ### 2. Featured Collection
 Product showcase displaying bestsellers and exclusive items with pricing, discounts, and add-to-cart functionality.
 
-![Featured Collection](img/Screenshot%20(5).png)
+![Featured Collection](D:\it company rawfade repo\ummatrawfade-main\ummatrawfade-main\img\Screenshot (3).png)
 
 **Features:**
 - Grid layout with 4 product cards
@@ -50,7 +50,7 @@ Product showcase displaying bestsellers and exclusive items with pricing, discou
 ### 3. Login Page
 User authentication interface with Login/Register options and error handling for secure account access.
 
-![Login Page](img/Screenshot%20(6).png)
+![Login Page](D:\it company rawfade repo\ummatrawfade-main\ummatrawfade-main\img\Screenshot (4).png)
 
 **Features:**
 - Welcome heading: "Welcome to RAW FADE"
