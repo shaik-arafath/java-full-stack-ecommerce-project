@@ -18,20 +18,52 @@ RAW FADE is an e-commerce demonstration application with:
 
 ## 🖼️ Project Screenshots
 
-### Home Page - Hero Section
+### 1. Home Page - Hero Section
 Landing page featuring the RAW FADE brand with prominent call-to-action buttons and professional imagery.
 
-![Home Page - Hero Section](https://cute-granita-cd33ed.netlify.app)
+![Home Page - Hero Section](img/Screenshot%20(4).png)
 
-### Featured Collection
+**Features:**
+- Professional hero banner with brand logo
+- "ELEVATE YOUR STYLE" headline
+- Call-to-action buttons: "SHOP NOW" and "EXPLORE COLLECTION"
+- Navigation: Home, Shop, Contact, Login, Cart
+- Responsive design with high-quality background imagery
+
+---
+
+### 2. Featured Collection
 Product showcase displaying bestsellers and exclusive items with pricing, discounts, and add-to-cart functionality.
 
-![Featured Collection](https://cute-granita-cd33ed.netlify.app)
+![Featured Collection](img/Screenshot%20(5).png)
 
-### Login Page
+**Features:**
+- "FEATURED COLLECTION" product grid
+- Bestseller badges on premium items
+- Product cards with images, names, and pricing
+- Price discounts shown (e.g., ₹2,599 → ₹1,299)
+- Add to cart functionality for each product
+- Newsletter signup section
+- Products: Bestseller items, Beach wear, Alazer clothing, Cargo Shorts
+
+---
+
+### 3. Login Page
 User authentication interface with Login/Register options and error handling.
 
-![Login Page](https://cute-granita-cd33ed.netlify.app/login.html)
+![Login Page](img/Screenshot%20(6).png)
+
+**Features:**
+- "Welcome to RAW FADE" authentication form
+- Login and Register toggle buttons
+- Username/Email input field
+- Secure password field with masking
+- Sign In button
+- Error message display: "Network error. Please try again."
+- Consistent dark theme with brand logo
+- User-friendly form layout
+
+---
 
 ## Technology Stack
 
@@ -49,6 +81,7 @@ User authentication interface with Login/Register options and error handling.
 - `Dockerfile` / `docker-compose.yml` — Deployment definitions for containerized execution
 - `.github/workflows/deploy.yml` — GitHub Actions workflow for remote deployment
 - `docs/` — Project documentation and architecture references
+- `img/` — Project screenshots and images
 
 ## Key Features
 
@@ -84,7 +117,6 @@ Configuration is driven from environment variables. See `docs/DEPLOYMENT_GUIDE.m
 - [`docs/DEPLOYMENT_GUIDE.md`](docs/DEPLOYMENT_GUIDE.md)
 - [`docs/SECURITY.md`](docs/SECURITY.md)
 - [`docs/CONTRIBUTING.md`](docs/CONTRIBUTING.md)
-- [`SCREENSHOTS.md`](SCREENSHOTS.md) - Project UI Screenshots
 
 ## CI/CD
 
@@ -92,7 +124,7 @@ The repository includes a GitHub Actions workflow that deploys to a remote serve
 
 ## Deployment
 
-The application is deployed using Docker on Netlify:
+The application is deployed and live on Netlify:
 
 **Live Demo**: [https://cute-granita-cd33ed.netlify.app](https://cute-granita-cd33ed.netlify.app)
 
