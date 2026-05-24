@@ -1,0 +1,11 @@
+.git
+.github
+.idea
+.vscode
+node_modules
+spring_backend/target
+.env
+.env.*
+docs
+*.log
+*.tmp

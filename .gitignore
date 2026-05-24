@@ -1,0 +1,69 @@
+# Maven
+target/
+spring_backend/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Spring Boot
+application-*.properties
+!application.properties
+
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Temporary files
+*.tmp
+*.temp
+
+# Environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+acme.json
+server_config.local.txt
+
+# Dependency directories
+node_modules/
+
+# Coverage and reports
+coverage/
+reports/
+
+# Deployment artifacts
+build.log
+deploy_simple.sh
+deploy_*.sh
