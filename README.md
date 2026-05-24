@@ -21,7 +21,7 @@ RAW FADE is an e-commerce demonstration application with:
 ### 1. Home Page - Hero Section
 Landing page featuring the RAW FADE brand with prominent call-to-action buttons and professional imagery showcasing premium men's fashion.
 
-![Home Page - Hero Section](https://github.com/shaik-arafath/java-full-stack-ecommerce-project/commit/680b35ce0273f8d6aec077983b88c7b2878658aa)
+![Home Page - Hero Section](img/Screenshot%20%282%29.png)
 
 **Features:**
 - Bold hero headline: "ELEVATE YOUR STYLE"
@@ -35,7 +35,7 @@ Landing page featuring the RAW FADE brand with prominent call-to-action buttons 
 ### 2. Featured Collection
 Product showcase displaying bestsellers and exclusive items with pricing, discounts, and add-to-cart functionality.
 
-![Featured Collection](img\Screenshot (3).png)
+![Featured Collection](img/Screenshot%20%283%29.png)
 
 **Features:**
 - Grid layout with 4 product cards
@@ -50,7 +50,7 @@ Product showcase displaying bestsellers and exclusive items with pricing, discou
 ### 3. Login Page
 User authentication interface with Login/Register options and error handling for secure account access.
 
-![Login Page](img\Screenshot (4).png)
+![Login Page](img/Screenshot%20%284%29.png)
 
 **Features:**
 - Welcome heading: "Welcome to RAW FADE"
@@ -91,17 +91,6 @@ User authentication interface with Login/Register options and error handling for
 ✅ **Admin Dashboard** - Manage inventory and orders  
 ✅ **Docker Deployment** - Containerized application for easy deployment  
 ✅ **Newsletter Integration** - Email subscription for customers  
-
-## Screenshots
-
-### Homepage & Product Browse
-![Homepage Screenshot](img/Screenshot%20%282%29.png)
-
-### Product Details & Catalog
-![Product Screenshot](img/Screenshot%20%283%29.png)
-
-### Checkout & Payment Flow
-![Checkout Screenshot](img/Screenshot%20%284%29.png)
 
 ## Getting Started
 
